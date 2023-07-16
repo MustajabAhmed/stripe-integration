@@ -5,9 +5,15 @@ import getStripePromise from "@/lib/stripe"
 const products = [
     {
         product: 1,
-        name: 'Stripe Product',
+        name: 'Stripe Product 1',
         price: 400,
         quantity: 3,
+    },
+    {
+        product: 2,
+        name: 'Stripe Product 2',
+        price: 100,
+        quantity: 5,
     },
 ]
 
